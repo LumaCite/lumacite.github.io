@@ -1,6 +1,6 @@
 # Рендер обложки (1920x768) и аватара (1500x1500) группы ВК из HTML.
 # Запуск: python3 render.py  (нужен Playwright с Chromium)
-# Новая игра: положить иконку рядом и добавить блок .g в cover.html.
+# Обложка без конкретных игр: только логотип и подпись.
 import os
 from playwright.sync_api import sync_playwright
 from PIL import Image
