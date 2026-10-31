@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:U;font-weight:400;src:url(unbounded-latin-400-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:U;font-weight:400;src:url(unbounded-cyrillic-400-normal.woff2);unicode-range:U+0400-04FF}
+@font-face{font-family:U;font-weight:700;src:url(unbounded-latin-700-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:U;font-weight:700;src:url(unbounded-cyrillic-700-normal.woff2);unicode-range:U+0400-04FF}
+@font-face{font-family:M;font-weight:500;src:url(manrope-latin-500-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:M;font-weight:500;src:url(manrope-cyrillic-500-normal.woff2);unicode-range:U+0400-04FF}
+@font-face{font-family:M;font-weight:600;src:url(manrope-latin-600-normal.woff2);unicode-range:U+0000-00FF}
+@font-face{font-family:M;font-weight:600;src:url(manrope-cyrillic-600-normal.woff2);unicode-range:U+0400-04FF}
+html,body{margin:0}
+.c{width:1920px;height:768px;position:relative;overflow:hidden;
+  background:
+    radial-gradient(620px 300px at 50% 36%, rgba(94,242,214,.16), transparent 70%),
+    radial-gradient(900px 500px at 15% 110%, rgba(140,90,255,.22), transparent 70%),
+    radial-gradient(900px 500px at 85% -10%, rgba(140,90,255,.18), transparent 70%),
+    linear-gradient(180deg,#14101f 0%,#191329 100%);
+  font-family:M;color:#efeaff;display:flex;flex-direction:column;align-items:center}
+.dots{position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.07) 1.5px,transparent 1.6px);background-size:32px 32px;
+  -webkit-mask-image:radial-gradient(900px 420px at 50% 50%, transparent 40%, #000 100%)}
+.mark{margin-top:138px;font-family:U;font-weight:700;font-size:118px;letter-spacing:-.02em;line-height:1;position:relative;
+  text-shadow:0 0 38px rgba(94,242,214,.35)}
+.mark b{color:#5ef2d6;font-weight:700}
+.tag{margin-top:22px;font-weight:500;font-size:34px;color:#b9b0d6;position:relative}
+.row{margin-top:58px;display:flex;gap:60px;position:relative}
+.g{display:flex;flex-direction:column;align-items:center;gap:16px;width:250px}
+.g img{width:190px;height:190px;border-radius:44px;display:block;
+  box-shadow:0 0 0 2px rgba(255,255,255,.08),0 18px 40px rgba(0,0,0,.45)}
+.g span{font-weight:600;font-size:23px;color:#d8d1f0;white-space:nowrap}
+</style></head>
+<body><div class="c"><div class="dots"></div>
+  <div class="mark">Luma<b>Cite</b></div>
+  <div class="tag">игры для телефона и браузера</div>
+  <div class="row">
+    <div class="g"><img src="kirpichi.png"><span>Кирпичи из детства</span></div>
+    <div class="g"><img src="alchemist.png"><span>Лаборатория алхимика</span></div>
+    <div class="g"><img src="saper.png"><span>Крот-сапёр</span></div>
+  </div>
+</div></body></html>
